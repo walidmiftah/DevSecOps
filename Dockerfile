@@ -3,4 +3,4 @@ WORKDIR /app
 COPY ../api .
 RUN pip install flask
 EXPOSE 5000
-CMD ["python", "app.py"]
+CMD ["python", "api/app.py"]
